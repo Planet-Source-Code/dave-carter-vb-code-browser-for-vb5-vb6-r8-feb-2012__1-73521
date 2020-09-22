@@ -1,0 +1,63 @@
+Unzip files from Planet Source Code and view the project inside: select Unzip from the Tools Menu.
+Read Me files from Planet Source Code are accessible from the browser form as long as the file exists in the source path.
+Drag a VBP onto the MDI Form and the program will try to read and load the project.
+Drag a VBG onto the MDI Form and the program will try to read the project group and load any projects found.
+Drag a Zip onto the MDI Form and the program will try to load it into the Unzip Form.
+Make a Resource file with a Compiled Manifest inside to attach to a project and gain XP Themes without a manifest companion file for the program's executable: select Manifest Resource Maker from the Tools Menu.
+Copy a project and its new directory will only contain the actual files referenced in the VBP including Help and Resource Files: select Copy Project from Project Explorer Pop-Up Menu.
+Copy a project source file to a folder of your choice: select Copy File from the Project Explorer Pop-Up Menu.
+Search a project for a word or phrase with the Mini Search VBP function: when in a Browser Form, Press Ctrl+I.
+Make a VBP load into the program's history list when you drag it onto the MDI.
+Manage the VBP references loaded into the MDI File menu with the Manage VBP History function: select this from the Tools Menu.
+Get Context Help pressing F1 when any forms are open.  Most forms have their own help available.
+Open a loaded project's containing folder from the project explorer pop-up menu: select Open \ Containing Folder from the Project Explorer Pop-Up Menu.
+Open a loaded project file into a text editor from the project explorer pop-up menu: select Open \ Into Text Editor from the Project Explorer Pop-Up Menu.
+Open a loaded project into a Visual Basic IDE (VB5 or VB6): select Open \ Into VB[5/6] IDE from the Project Explorer Pop-Up Menu.
+Get a quick report of a loaded project including number of files, lines and total size of all files: select Reports \ Project Report from the Project Explorer Pop-Up Menu.
+Get a quick report of a loaded source file including method list, line count and number of Constants / APIs declared: click the Class Report button on the Browser Form Toolbar (no. 8 from left).
+Copy a method in the Class Explorer: select Copy Method from the Class Explorer Pop-Up Menu.
+Copy the signature of a method in the Class Explorer: select Copy Signature from Class Explorer Pop-Up Menu.
+Generate an Interface to a source file loaded into the Class Explorer: right click the browser form info pane and select Interface from the Pop-Up Menu and then choose whether to include all methods and members or just those that are exposed.
+Browse back and forth between the methods and members of a source file that you have visited.
+Get a quick report of all the API declarations in the project.
+Paste some code into a Viewer, click the Colourise button; the members and methods found will be loaded into the Class Explorer.
+Save the Text in the Viewer to HTML: with coloured text in the Browser Form viewer, click the Save To HTML button on the Toolbar (no. 10 from left).
+Save the Text in the Viewer to RTF: with coloured text in the Browser Form viewer, click the Save To RTF button on the Toolbar (no. 9 from left).
+Split the code viewer in two.
+Hide the panels in the browser form so that only the code viewer is visible.
+Configure the Syntax Colouring used in the code viewer: Tools \ Options, select Syntax Colours tab.
+Hide / Show hidden VB Attributes describing methods and members.
+Include Line Numbering when viewing any code.
+Zoom the Font Size displayed in the viewer by scrolling the Font Size Combo Box Value.
+Change the Font that is being used in the code viewer on the fly.
+Print the text in the code viewer maintaining syntax colouring in the output.
+View the number of lines within a project source file loaded into the Class Explorer.
+View the number of lines within a project source file member loaded and selected into the Class Explorer.
+Configure the program to delete the contents of the Unzip folder when the it closes.
+Configure the location of VB IDEs: select Tools \ Options, and select Project Menu tab.
+Configure a program to act as a text editor for reading the plain text of a source file: select Tools \ Options, and select Project Menu tab.
+Configure the program to automatically extract Zip files dragged onto the MDI Form: select Tools \ Options, and select Unzip tab.
+Generate Select Case statement for an Enumerator showing in the Class Explorer: select the Name node of the Enumerator and drag to another Editor.
+Copy an API Declaration from the Class Explorer: select the Name node of the API, right click and select Copy Signature, the declaration will be copied to the Clipboard for pasting where-ever.
+Make the browser form code viewer's text Bold: check the Bold check box, the next time the viewer loads new code its text will be bold.
+Link to a project downloaded from Planet Source Code: select the Info button on the browser form Toolbar (11th from left).  On the PSC Read Me form, click the link label below the project's description.
+View two methods in the same code viewer on a browser form.  Left Click one member in the Class Explorer, then Right Click another member, instead of selecting from the Pop-Up Menu, just Left Click the node avoiding the menu altogether.
+Filter the Project Search results by selecting an item in the Project Tree: Top Item = No Filter, Group Item = Filter by Group Type, Source Code File = Filter by File.
+See the Name, Type and Return Type of an API in the Class Explorer and its Library, Alias and Parameters as separate child nodes.
+Copy an API Signature: select the name of an API in the Class Explorer, right click to access its Pop-Up Menu and select Copy Signature; the declaration will be copied to the Clipboard.
+Open Multiple Child Windows to view a Project.
+View an entire Project in a Single Window.
+Listen to and Download any of my Acoustic Guitar Tunes :-) @ http://www.myspace.com/dave_e_c : select Tools \ Options, General Tab, click the ' And now for something completely different ' link.
+Hear some really nice finger style, acoustic, steel string, guitar tunes @ http://www.myspace.com/dave_e_c : select Tools \ Options, General Tab, click the ' And now for something completely different ' link.
+Hide the browser form's Toolbar and Project Explorer when they are opened as child windows of a project: select Tools \ Options, General tab, check ' Use Child Windows ' and check Hide Project Explorer... and Hide Toolbar ...
+Double-Click a Project Reference or Component to load it into the Mini Reference Viewer: select a Reference or Component in a Project Explorer on a browser form and double-click it.
+Filter the Member Types in the Mini Reference Viewer:  All Types = No Filter, Constants = Filter on Source Constants such as Enumerator Members, CoClasses = Filter on exposed Classes and Events = Filter on Events.
+Drag a DLL or OCX file from a Windows Explorer onto the Reference Text Box to view its Type Library Members.
+Show or Hide (hidden) Attributes in Source Code Files:
+View a Method or Member's Descriptive Attribute in the Info Pane immediately above the Code Viewer.
+The Info Pane provides a path describing the current project, source file, member name, member type and member return value type.
+Save all Text Reports to RTF or HTML: run the report then click the ' Save to RTF / HTML ' button on the Toolbar of the browser form.
+Open a Project Source file selected in the Project Explorer, on the Browser Form, by Double-Clicking it's name in the Status Bar.
+Get a simple HTML document describing source files and their members, including parameter list: Project Explorer, Pop-Up Menu \ Members \ HTML Member Pages
+Scan Folders for PSC Read Me Files with Title, Description and Internet Link and then see any associated VBPs found in a file's folder.
+See a Rolodex List of all the Subs, Functions and Properties found in a project: Project Explorer, Pop-Up Menu \ Members \ Methods
